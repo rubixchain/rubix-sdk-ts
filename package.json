@@ -1,0 +1,71 @@
+{
+  "name": "@rubixchain/rubix-sdk",
+  "version": "1.0.0-alpha.1",
+  "description": "Rubix Client SDK for TypeScript",
+  "license": "MIT",
+  "author": "Arnab Ghose <arnab.g@rubix.net>",
+  "keywords": [
+    "blockchain",
+    "web3",
+    "sdk",
+    "cryptography",
+    "nft"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubixchain/rubix-sdk-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rubixchain/rubix-sdk-ts/issues"
+  },
+  "homepage": "https://github.com/rubixchain/rubix-sdk-ts#readme",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:offline": "vitest run --project offline",
+    "test:live": "vitest run --project live",
+    "prepublishOnly": "npm run typecheck && npm run build"
+  },
+  "dependencies": {
+    "@noble/curves": "2.4.0",
+    "@noble/hashes": "2.4.0",
+    "@scure/bip32": "2.4.0",
+    "@scure/bip39": "2.4.0",
+    "multiformats": "14.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "tsup": "8.5.1",
+    "typescript": "6.0.3",
+    "vitest": "5.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

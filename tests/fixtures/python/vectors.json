@@ -1,0 +1,302 @@
+{
+  "mnemonic": "buffalo tumble defy laundry call almost little pig lift party property pool frame erosion mind library sample floor ring enemy word enemy foster ill",
+  "seed": "1884e5ddc2a5fb783f60803868cffaef1af1ce36e6686357c9c5dd6c80b63d698d78a8db3cab0404ecd3d966a00b9d51e4ac783997f78f64a1b24152e09ec524",
+  "seedKeypair": {
+    "privateKey": "ebf8b47dec05c0d1b8f2de06e60afefe76942a556973c1774865b4921086534b",
+    "publicKey": "04761e49d910a81c10d439b06387482a8b1e8d807e19131235deac727266da5cfff7f4dc157a2d28975541f178bb5e6b82d9d0f71e6fe31480230726f96373f7e6"
+  },
+  "privateKeyKeypair": {
+    "privateKey": "1e99423a4edf5c3d2e8f6b8c3f4e5d6c7b8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c",
+    "publicKey": "0452b491732714676806091d02e56b104dc3319553783512602df5d04acef420504e7c7c6e076f129eae293de889d88d8baf405cf78f783fd4e994a545ac4c018b"
+  },
+  "signatures": [
+    {
+      "message": "",
+      "signature": "3045022100b0427d39a157cff32482db4bb120b02b901a738814b91e5fac2daebdad9424f102203e4f892c268906435492a5e04d3780b27046ab2a46c720aa8e9a25b75263e2e2",
+      "highS": false,
+      "valid": true,
+      "validForOtherMessage": false
+    },
+    {
+      "message": "",
+      "signature": "3045022039a9338c901da02c214e11f521e5d3a801657a0659a18b93ce74ea4e7126a5c5022100eb9ed56665830402400ae8711b7fa47dc75fb76e470c4ceb873d5cc8227a5315",
+      "highS": true,
+      "valid": true,
+      "validForOtherMessage": false
+    },
+    {
+      "message": "54657374206d65737361676520666f72207369676e696e67",
+      "signature": "3045022100df283f02434809d15b61da9986aa3b160ccf3d73fb86b91d7ec8d543e96070e3022013b4927a6d2762b46188f7d6652786dfdb9091e83386381ad99cbc5ce940fc98",
+      "highS": false,
+      "valid": true,
+      "validForOtherMessage": false
+    },
+    {
+      "message": "54657374206d65737361676520666f72207369676e696e67",
+      "signature": "3045022028c7d686e805610106e729aa3b37237280d6b79b8ab72c8399988ea015d99d3c0221009d468d8a3aa72027f71377c4c44fe792f53ed7be0acd80f770c2567f0f9fd7f6",
+      "highS": true,
+      "valid": true,
+      "validForOtherMessage": false
+    },
+    {
+      "message": "a58dd8680234c1f8cc2ef2b325a43733605a7f16f288e072de8eae81fd8d6433",
+      "signature": "3046022100c3aa15030fbfb4bc54116133d07d70608a6b804ef55d019d59339955e7c21c32022100b02f42454232d5359d8797146d4dce0b569e744ae7a2f186d9611adfeb7af1ee",
+      "highS": true,
+      "valid": true,
+      "validForOtherMessage": true
+    },
+    {
+      "message": "a58dd8680234c1f8cc2ef2b325a43733605a7f16f288e072de8eae81fd8d6433",
+      "signature": "304402201e0fef1c6501c7003bbaaa4aa662954d9d0d882f366298e5f1e44b74cb58de0a02204f6fc7c5a08f058ead2872df649919628acf753fcce4a60ee1d892ace17de8b2",
+      "highS": false,
+      "valid": true,
+      "validForOtherMessage": true
+    },
+    {
+      "message": "4c6f72656d20697073756d20646f6c6f722073697420616d65742c20636f6e73656374657475722061646970697363696e6720656c69742e",
+      "signature": "3046022100a4ea3100fcb3a74c2204f23bb132a4345db8da24a2f46443f81db08e497f3b9e022100abaeb2003425cf474451dd1f936c38fd55bed63c9571f62b45476fa58e2fa18c",
+      "highS": true,
+      "valid": true,
+      "validForOtherMessage": true
+    },
+    {
+      "message": "4c6f72656d20697073756d20646f6c6f722073697420616d65742c20636f6e73656374657475722061646970697363696e6720656c69742e",
+      "signature": "304502210091f02264fc72913c50908cefdea7424cabd100f4665d24cf6276f6d0d41321ee022050eced07ef6404fd6f26beb878e147531477cf13728805e879d39d37cefb1b93",
+      "highS": false,
+      "valid": true,
+      "validForOtherMessage": true
+    },
+    {
+      "message": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7",
+      "signature": "3045022100bd0495cbd89ffa69f03f6c119e438f86d55d53b7db1d3e9e104f3df5e3ba470302200c2a790917d9fcc395f1f72e9384761aaeaff93a399da8c6c00ede2e581dc531",
+      "highS": false,
+      "valid": true,
+      "validForOtherMessage": true
+    },
+    {
+      "message": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7",
+      "signature": "304502203493ebeb697bb281c39c27597cf88987ea58f97393ab959043e4ee3737fbb7bc022100ed1bc3bfa251c7f5d12aaa8e44ad09d4f8de1b59a26847791301801e8003c488",
+      "highS": true,
+      "valid": true,
+      "validForOtherMessage": true
+    }
+  ],
+  "account": {
+    "dir": "account",
+    "alias": "nero",
+    "did": "bafybmicbopex4ydytrtremmculwpo7e5p2uvbkuw2ds775xmkcsc5lglai",
+    "passphrase": "testpassphrase",
+    "publicKey": "04b8edb32c69e16b8d30de87b48aedc4fa09f1643fbaa3e85dbb1932498ea94b0a7fd48c325a591a08e350b8b1ddfb7416ff72f7d61dad9a33b46658ef77ca6625",
+    "privateKey": "e32a09e939376358c37c8780beb632f5cf2fa12c8a53bc77984e60964fd59c78"
+  },
+  "cids": [
+    {
+      "value": "bafybmifxxg6xvzbu6cd5gqrtsl4mqizlnjioz6djp45kq6lq6fn7hl3cmq",
+      "isDid": true,
+      "isAssetAddress": false
+    },
+    {
+      "value": "bafybmicbopex4ydytrtremmculwpo7e5p2uvbkuw2ds775xmkcsc5lglai",
+      "isDid": true,
+      "isAssetAddress": false
+    },
+    {
+      "value": "bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi",
+      "isDid": true,
+      "isAssetAddress": false
+    },
+    {
+      "value": "BAFYBMIFXXG6XVZBU6CD5GQRTSL4MQIZLNJIOZ6DJP45KQ6LQ6FN7HL3CMQ",
+      "isDid": true,
+      "isAssetAddress": false
+    },
+    {
+      "value": "zb2rhe5P4gXftAwvA4eXQ5HJwsER2owDyS9sKaQRRVQPn93bA",
+      "isDid": true,
+      "isAssetAddress": false
+    },
+    {
+      "value": "bafybmifxxg6xvzbu6cd5gqrtsl4mqizlnjioz6djp45kq6lq6fn7hl3cm",
+      "isDid": false,
+      "isAssetAddress": false
+    },
+    {
+      "value": "QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG",
+      "isDid": false,
+      "isAssetAddress": true
+    },
+    {
+      "value": "QmemZiUZkmsxg6nyYH718VXwSfgdsQoPXBd6nDNvWQ1srr",
+      "isDid": false,
+      "isAssetAddress": true
+    },
+    {
+      "value": "QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbd",
+      "isDid": false,
+      "isAssetAddress": false
+    },
+    {
+      "value": "",
+      "isDid": false,
+      "isAssetAddress": false
+    },
+    {
+      "value": "abc",
+      "isDid": false,
+      "isAssetAddress": false
+    },
+    {
+      "value": "not a cid at all",
+      "isDid": false,
+      "isAssetAddress": false
+    }
+  ],
+  "tx": {
+    "signer": "bafybmigqhr3broqr77axocg3kpwrogxcrixmavf7oc267g2hphjf5t6feu",
+    "receiver": "bafybmicbopex4ydytrtremmculwpo7e5p2uvbkuw2ds775xmkcsc5lglai",
+    "asset": "QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG",
+    "parent": "QmQytWAMHzT6BvEVCEuHnpFhJZqetAL7JbPMW7ytC12bgK",
+    "sendRbtTokens": {
+      "initiator": "bafybmigqhr3broqr77axocg3kpwrogxcrixmavf7oc267g2hphjf5t6feu",
+      "owner": "bafybmicbopex4ydytrtremmculwpo7e5p2uvbkuw2ds775xmkcsc5lglai",
+      "tokens": {
+        "rbt": 0.001,
+        "ft": [],
+        "nft": [],
+        "smartContract": [],
+        "transferNftOwnership": false
+      },
+      "memo": "Test RBT Transfer"
+    },
+    "sendFt": {
+      "initiator": "bafybmigqhr3broqr77axocg3kpwrogxcrixmavf7oc267g2hphjf5t6feu",
+      "owner": "bafybmicbopex4ydytrtremmculwpo7e5p2uvbkuw2ds775xmkcsc5lglai",
+      "tokens": {
+        "rbt": null,
+        "ft": [
+          {
+            "ftName": "ABC",
+            "numberOfFts": 5,
+            "creatorDID": "bafybmigqhr3broqr77axocg3kpwrogxcrixmavf7oc267g2hphjf5t6feu"
+          }
+        ],
+        "nft": [],
+        "smartContract": [],
+        "transferNftOwnership": false
+      },
+      "memo": "Test FT Transfer"
+    },
+    "deploySmartContract": {
+      "initiator": "bafybmigqhr3broqr77axocg3kpwrogxcrixmavf7oc267g2hphjf5t6feu",
+      "owner": "",
+      "tokens": {
+        "rbt": null,
+        "ft": [],
+        "nft": [],
+        "smartContract": [
+          {
+            "smartContractId": "QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG",
+            "value": 0.001,
+            "data": "init"
+          }
+        ],
+        "transferNftOwnership": false
+      },
+      "memo": "deploy"
+    },
+    "executeSmartContract": {
+      "initiator": "bafybmigqhr3broqr77axocg3kpwrogxcrixmavf7oc267g2hphjf5t6feu",
+      "owner": "",
+      "tokens": {
+        "rbt": null,
+        "ft": [],
+        "nft": [],
+        "smartContract": [
+          {
+            "smartContractId": "QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG",
+            "value": 0,
+            "data": "test1"
+          }
+        ],
+        "transferNftOwnership": false
+      },
+      "memo": ""
+    },
+    "deployNft": {
+      "initiator": "bafybmigqhr3broqr77axocg3kpwrogxcrixmavf7oc267g2hphjf5t6feu",
+      "owner": "",
+      "tokens": {
+        "rbt": null,
+        "ft": [],
+        "nft": [
+          {
+            "nftId": "QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG",
+            "value": 0.001,
+            "data": "init data",
+            "parentNFTId": ""
+          }
+        ],
+        "smartContract": [],
+        "transferNftOwnership": false
+      },
+      "memo": ""
+    },
+    "executeNft": {
+      "initiator": "bafybmigqhr3broqr77axocg3kpwrogxcrixmavf7oc267g2hphjf5t6feu",
+      "owner": "bafybmigqhr3broqr77axocg3kpwrogxcrixmavf7oc267g2hphjf5t6feu",
+      "tokens": {
+        "rbt": null,
+        "ft": [],
+        "nft": [
+          {
+            "nftId": "QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG",
+            "value": 1,
+            "data": "test execution data",
+            "parentNFTId": ""
+          }
+        ],
+        "smartContract": [],
+        "transferNftOwnership": false
+      },
+      "memo": ""
+    },
+    "createChildNft": {
+      "initiator": "bafybmigqhr3broqr77axocg3kpwrogxcrixmavf7oc267g2hphjf5t6feu",
+      "owner": "bafybmigqhr3broqr77axocg3kpwrogxcrixmavf7oc267g2hphjf5t6feu",
+      "tokens": {
+        "rbt": null,
+        "ft": [],
+        "nft": [
+          {
+            "nftId": "",
+            "value": 0.0,
+            "data": "",
+            "parentNFTId": "QmQytWAMHzT6BvEVCEuHnpFhJZqetAL7JbPMW7ytC12bgK"
+          }
+        ],
+        "smartContract": [],
+        "transferNftOwnership": false
+      },
+      "memo": ""
+    },
+    "transferNft": {
+      "initiator": "bafybmigqhr3broqr77axocg3kpwrogxcrixmavf7oc267g2hphjf5t6feu",
+      "owner": "bafybmicbopex4ydytrtremmculwpo7e5p2uvbkuw2ds775xmkcsc5lglai",
+      "tokens": {
+        "rbt": null,
+        "ft": [],
+        "nft": [
+          {
+            "nftId": "QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG",
+            "value": 0.001,
+            "data": "",
+            "parentNFTId": ""
+          }
+        ],
+        "smartContract": [],
+        "transferNftOwnership": false
+      },
+      "memo": "gift"
+    }
+  }
+}

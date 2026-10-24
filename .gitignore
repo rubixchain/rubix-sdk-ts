@@ -1,0 +1,11 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.DS_Store
+.vscode/
+.idea/
+.env
+.env.*
+# Scratch account dirs created by live tests
+.rubix_sdk_test/
