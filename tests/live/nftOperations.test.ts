@@ -1,7 +1,7 @@
 import { beforeAll, describe, expect, test } from "vitest";
 import { Querier } from "../../src/querier.js";
 import type { Signer } from "../../src/signer.js";
-import { client, fundedSigner, hasFundedAccount, makeNftFiles, receiverSigner } from "./helpers.js";
+import { client, fundedSigner, hasFundedAccount, makeNftFiles, receiverDid as getReceiverDid } from "./helpers.js";
 
 // Based on examples/nftOperations.ts. The tests depend on each other and run in order.
 describe.skipIf(!hasFundedAccount)("NFT operations", () => {
@@ -69,7 +69,7 @@ describe.skipIf(!hasFundedAccount)("NFT operations", () => {
   });
 
   test("transfers the NFT to another DID", async () => {
-    receiverDid = (await receiverSigner()).did;
+    receiverDid = await getReceiverDid();
 
     const response = await signer.transferNft({
       nftAddress,

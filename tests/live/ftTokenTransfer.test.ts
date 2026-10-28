@@ -1,6 +1,6 @@
 import { describe, expect, test } from "vitest";
 import { Querier } from "../../src/querier.js";
-import { client, fundedSigner, hasFundedAccount, receiverSigner } from "./helpers.js";
+import { client, fundedSigner, hasFundedAccount, receiverDid } from "./helpers.js";
 
 const FT_NAME = "TSSDKFT";
 
@@ -8,7 +8,7 @@ const FT_NAME = "TSSDKFT";
 describe.skipIf(!hasFundedAccount)("FT token transfer", () => {
   test("creates an FT (once) and transfers it", async () => {
     const signer = await fundedSigner();
-    const receiver = await receiverSigner();
+    const receiver = await receiverDid();
     const rubixQuerier = new Querier(client);
 
     // Mint the FT only if the funded account has run out of it, to avoid locking RBT on every run
@@ -21,7 +21,7 @@ describe.skipIf(!hasFundedAccount)("FT token transfer", () => {
     console.log("FT balances of the funded account:", JSON.stringify(balances));
 
     const response = await signer.sendFt({
-      receiverDid: receiver.did,
+      receiverDid: receiver,
       ftName: FT_NAME,
       ftCount: 1,
       ftCreatorDid: signer.did,
@@ -30,7 +30,7 @@ describe.skipIf(!hasFundedAccount)("FT token transfer", () => {
 
     expect(response.status, `FT Transfer Failed!: ${response.message}`).toBe(true);
 
-    const receiverBalances = await rubixQuerier.getFtBalances(receiver.did);
+    const receiverBalances = await rubixQuerier.getFtBalances(receiver);
     expect(JSON.stringify(receiverBalances)).toContain(FT_NAME);
   });
 });
